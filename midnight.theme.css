@@ -1,20 +1,20 @@
 /**
  * @name midnight
- * @description A darkened discord theme.
- * @author refact0r
+ * @description A darkened discord theme. (Customised by fourilent)
+ * @author refact0r & fourilent
  * @version 1.6.2
- * @source https://github.com/refact0r/midnight-discord
+ * @source https://git.frlt.one/fourilent/midnight-discord/src/branch/custom
  * @authorId 508863359777505290
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 
-@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url('https://git.frlt.one/fourilent/midnight-discord/raw/branch/custom/midnight-minified.css');
 
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font*/
-	--font: 'figtree';
+	--font: 'gg sans';
 
 	/* top left corner text */
 	--corner-text: 'Midnight';
@@ -37,19 +37,19 @@
 	/* text colors */
 	--text-0: white; /* text on colored elements */
 	--text-1: var(--text-2); /* other normally white text */
-	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(220, 15%, 60%); /* normal text */
-	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+	--text-2: hsl(0, 0%, 90%); /* headings and important text */
+	--text-3: hsl(0, 0%, 80%); /* normal text */
+	--text-4: hsl(0, 0%, 70%); /* icon buttons and channels */
+	--text-5: hsl(0, 0%, 40%); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
-	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
-	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
-	--bg-4: hsl(220, 15%, 10%); /* main background color */
-	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+	--bg-1: hsl(0, 0%, 20%); /* dark buttons when clicked */
+	--bg-2: hsl(0, 0%, 16%); /* dark buttons */
+	--bg-3: hsl(0, 0%, 10%); /* spacing, secondary elements */
+	--bg-4: hsl(0, 0%, 10%); /* main background color */
+	--hover: hsla(0, 0%, 40%, 0.1); /* channels and buttons when hovered */
+	--active: hsla(0, 0%, 40%, 0.2); /* channels and buttons when clicked or selected */
+	--message-hover: hsla(0, 0%, 0%, 0.1); /* messages when hovered */
 
 	/* amount of spacing and padding */
 	--spacing: 12px;
@@ -71,8 +71,8 @@
 
 	/* direct messages moon icon */
 	/* change to block to show, none to hide */
-	--discord-icon: none; /* discord icon */
-	--moon-icon: block; /* moon icon */
+	--discord-icon: block; /* discord icon */
+	--moon-icon: none; /* moon icon */
 	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
 	--moon-icon-size: auto;
 

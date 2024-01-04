@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
 
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font*/
-	--font: 'figtree';
+	--font: 'gg sans';
 
 	/* top left corner text */
 	--corner-text: 'Midnight';
@@ -285,7 +285,7 @@ path[fill='var(--white-500)'] {
 }
 
 /* change online indicator color */
-rect[fill='#23a55a'],
+/* rect[fill='#23a55a'],
 svg[fill='#23a55a'] {
 	fill: var(--online-indicator) !important;
 }
@@ -312,7 +312,7 @@ svg[fill='#593695'] {
 }
 .status__1c26d[style='background-color: rgb(89, 54, 149);'] {
 	background-color: var(--streaming-indicator) !important;
-}
+} */
 
 /* color fix filters */
 .container__048f4:last-child .icon_e26761 /* explore discoverable servers icon color */ {
@@ -606,7 +606,7 @@ button.button__581d0 /* small buttons */,
 } */
 
 /* top corner title */
-[class^='wordmarkWindows'] {
+/* [class^='wordmarkWindows'] {
 	padding: 4px var(--spacing);
 }
 [class^='wordmarkWindows'] > svg {
@@ -624,7 +624,7 @@ button.button__581d0 /* small buttons */,
 	color: var(--text-5);
 	transform: scaleX(1.2);
 	margin-left: 6px;
-}
+} */
 
 /* top bar height */
 [class^='typeWindows'] {
@@ -632,7 +632,7 @@ button.button__581d0 /* small buttons */,
 }
 
 /* window controls */
-[class^='winButton'] > svg {
+/* [class^='winButton'] > svg {
 	display: none;
 }
 [class^='winButton'] {
@@ -665,10 +665,10 @@ button.button__581d0 /* small buttons */,
 }
 [class^='winButtonMinMax']:nth-child(4)::after {
 	background-color: var(--idle-indicator) !important;
-}
+} */
 
 /* custom dm button moon icon */
-.childWrapper_a6ce15 > svg:not(.favoriteIcon__901fa) {
+/* .childWrapper_a6ce15 > svg:not(.favoriteIcon__901fa) {
 	display: var(--discord-icon);
 }
 .childWrapper_a6ce15:has(> svg:not(.favoriteIcon__901fa))::before {
@@ -701,7 +701,7 @@ button.button__581d0 /* small buttons */,
 	z-index: -1;
 	background: var(--bg-3);
 	border-radius: 50%;
-}
+} */
 /* custom dm button background instead of icon */
 /* .childWrapper_a6ce15:has(> svg:not(.favoriteIcon__901fa)) {
 	background: url('https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png');
